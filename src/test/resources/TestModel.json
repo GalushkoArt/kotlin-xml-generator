@@ -1,0 +1,32 @@
+{
+  "ReusedTag": {
+    "$namespace": "reused",
+    "Message": "String"
+  },
+  "TestMessage": {
+    "@random-attribute": "String",
+    "$namespace": "test",
+    "TestValue": "String",
+    "TestStrings": [
+      "String"
+    ],
+    "ReusedList": [
+      "ReusedTag"
+    ],
+    "Anonymous": {
+      "class": "String",
+      "InnerAnonymous": {
+        "SomeAnonymous": [
+          {
+            "ValueFromAnonymousList": "String"
+          }
+        ]
+      }
+    },
+    "SomeAnonymous": [
+      {
+        "ValueFromAnonymousList": "String"
+      }
+    ]
+  }
+}
